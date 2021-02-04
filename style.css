@@ -1,0 +1,35 @@
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#produktBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prodCard {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.prodCard * {
+    margin: 20px;
+}
+
+button {
+    border-radius: 10px;
+    background-color: rgba(0, 128, 0, 0.425);
+}

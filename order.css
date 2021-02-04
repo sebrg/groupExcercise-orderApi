@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60vw;
+}
+  th, td {
+    padding: 5px;
+    text-align: center;
+
+  }
+  th {
+    text-align: center;
+  }
+
+  .orderDiv {
+      display:flex; 
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+  }
+
+  .orderDiv > h2 {
+      margin-top: 2em;
+  }
+
+  
